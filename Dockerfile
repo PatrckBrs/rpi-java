@@ -16,5 +16,5 @@ WORKDIR /data
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-armhf
 
-# Define default command
+# Define default command test
 CMD ["bash"]
