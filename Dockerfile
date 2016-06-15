@@ -6,7 +6,7 @@ MAINTAINER Dieter Reuter <dieter@hypriot.com>
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-    openjdk-8-jre \
+    openjdk-8-jre vim \
     --no-install-recommends && \
     rm -rf /var/lib/apt/lists/*
 
